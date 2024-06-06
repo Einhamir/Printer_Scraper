@@ -1,4 +1,6 @@
-file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.htmlzzzzz
+http://10.103.12.109/PCLARIDAD/login.aspx
+http://10.103.12.109/PCLARIDAD/Comisiones/privado/edo_cuenta.aspx
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html
 file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html
 file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html
 file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html

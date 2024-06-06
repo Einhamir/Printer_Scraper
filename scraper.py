@@ -25,6 +25,7 @@ printers = get_printer_ip(urls_path)
 # url = "file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html"
 # page = urlopen(url)
 # html = page.read().decode("utf-8")
+webs=[]
 series =[]
 nombres =[]
 modelos =[]
@@ -33,54 +34,72 @@ ubicaciones =[]
 ctrl_ix = 0
 
 for p in printers:
-    url = p
-    page = urlopen(url)
-    html = page.read().decode("utf-8")
 
-    soup = BeautifulSoup(html, "html5lib")
+    try:
+        url = p.strip()
+        page = urlopen(url)
+        html = page.read().decode("utf-8")
 
-    coll_td = soup.find_all('td')
-
-    if (coll_td[0].get_text() == ''):
-        ctrl_ix = 0
-        for td in range (1,12):
-         
-            if (td % 2) == 0:
-                
-                ctrl_ix = ctrl_ix +1
-                if ctrl_ix == 1:
-                    series.append(coll_td[td].get_text())
-                    
-                if ctrl_ix == 2:    
-                    nombres.append(coll_td[td].get_text())
-                if ctrl_ix == 3:
-                    modelos.append(coll_td[td].get_text())
-                if ctrl_ix == 4:
-                    ubicaciones.append(coll_td[td].get_text())
+        soup = BeautifulSoup(html, "html5lib")
+    except:
+        webs.append(url)
+        series.append('WEB-ERROR')
+        nombres.append('WEB-ERROR')
+        modelos.append('WEB-ERROR')
+        ubicaciones.append('WEB-ERROR')
     else:
-        ctrl_ix = 0
-        for td in range (1,12):
-         
-            if (td % 2) != 0:
+
+        coll_td = soup.find_all('td')
+        if (len(coll_td)> 0):
+            webs.append(url)
+            if (coll_td[0].get_text() == ''):
+                ctrl_ix = 0
+                for td in range (1,12):
                 
-                ctrl_ix = ctrl_ix +1
-                if ctrl_ix == 1:
-                    series.append(coll_td[td].get_text())
-                    
-                if ctrl_ix == 2:    
-                    nombres.append(coll_td[td].get_text())
-                if ctrl_ix == 3:
-                    modelos.append(coll_td[td].get_text())
-                if ctrl_ix == 4:
-                    ubicaciones.append(coll_td[td].get_text())
-        
+                    if (td % 2) == 0:
+                        
+                        ctrl_ix = ctrl_ix +1
+                        
+                        if ctrl_ix == 1:
+                            series.append(coll_td[td].get_text())
+                            
+                        if ctrl_ix == 2:    
+                            nombres.append(coll_td[td].get_text())
+                        if ctrl_ix == 3:
+                            modelos.append(coll_td[td].get_text())
+                        if ctrl_ix == 4:
+                            ubicaciones.append(coll_td[td].get_text())
+            else:
+                ctrl_ix = 0
+                for td in range (1,12):
+                
+                    if (td % 2) != 0:
+                        
+                        ctrl_ix = ctrl_ix +1
+                        
+                        if ctrl_ix == 1:
+                            series.append(coll_td[td].get_text())
+                            
+                        if ctrl_ix == 2:    
+                            nombres.append(coll_td[td].get_text())
+                        if ctrl_ix == 3:
+                            modelos.append(coll_td[td].get_text())
+                        if ctrl_ix == 4:
+                            ubicaciones.append(coll_td[td].get_text())
+        else:
+            webs.append(url)
+            series.append('TD-ERROR')
+            nombres.append('TD-ERROR')
+            modelos.append('TD-ERROR')
+            ubicaciones.append('TD-ERROR')
+            
 
 # print(series)
 # print(nombres)
 # print(modelos)
 # print(ubicaciones)
 
-dict_csv = {"SERIE":series,"NOMBRE":nombres,"MODELO":modelos,"UBICACION":ubicaciones}
+dict_csv = {"IP":webs,"SERIE":series,"NOMBRE":nombres,"MODELO":modelos,"UBICACION":ubicaciones}
 
 df = pd.DataFrame(dict_csv)
 

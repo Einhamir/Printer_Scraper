@@ -1,49 +1,51 @@
-SERIE|NOMBRE|MODELO|UBICACION
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
-1502775600|No fijado|MX-M2651|No fijado
-5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+IP|SERIE|NOMBRE|MODELO|UBICACION
+http://10.103.12.109/PCLARIDAD/login.aspx|TD-ERROR|TD-ERROR|TD-ERROR|TD-ERROR
+http://10.103.12.109/PCLARIDAD/Comisiones/privado/edo_cuenta.aspx|WEB-ERROR|WEB-ERROR|WEB-ERROR|WEB-ERROR
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webnew.html|1502775600|No fijado|MX-M2651|No fijado
+file:///C:/Users/mr344c/Documents/Python%20Scripts/LA_XARP/webold.html|5500285500|ALMACEN ATOYAC|MX-M564N|Río Atoyac 97 PB, Almacén USGA
