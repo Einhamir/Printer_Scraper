@@ -1,0 +1,414 @@
+<html lang="es" style="overflow: hidden;"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=320,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=8; IE=10; IE=11">
+<title>Identificación de la máquina - MX-M2651</title>
+<link rel="stylesheet" href="other.css" type="text/css">
+<link rel="stylesheet" href="color1.css" type="text/css">
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="PIE.js"></script>
+<![endif]-->
+<script type="text/javascript" src="other.js"></script>
+<script type="text/javascript">
+<!--
+function changeMyPage(val){
+	var post_data = "regist=/main.html";
+	obj = document.getElementsByName("token1");
+	if(obj.length > 0){
+		post_data = post_data + "&token1=" + obj.item(0).value;
+	}
+	obj = document.getElementsByName("token2");
+	if(obj.length > 0){
+		post_data = post_data + "&token2=" + obj.item(0).value;
+	}
+	$.ajax({
+		url: "/shortcutpage.html",
+		type: "POST",
+		data: post_data,
+		dataType: "html",
+		cache: false,
+		success: function(data, textStatus){
+			var e = document.getElementById('tabmenuListData');
+			image_file=data.split(",");
+			if(parseInt(image_file[0])!=0){
+				document.getElementById("shortcuticon").src=image_file[1];
+				if(typeof e.childElementCount == "undefined"){
+					tab_name=e.lastChild.innerText;
+				}
+				else{
+					tab_name=e.children[e.childElementCount - 1].textContent
+				}
+				if(tab_name=="Acceso directo"){
+					if(parseInt(image_file[2])==0){
+						e.removeChild(e.lastChild);
+					}
+				}
+				else{
+					if(parseInt(image_file[2])!=0){
+						var elemLi = document.createElement('li');
+						elemLi.id = "tabMyPage";
+						elemLi.innerHTML = "<a href=\"/shortcutpage.html\" class=\"pie\"><span><img src=\"tabMenuMyPage.png\" /><span>Acceso directo</span></span></a>";
+						e.appendChild(elemLi);
+					}
+				}
+				contentsHeightResize();
+			}
+			else{
+			alert("Se ha alcanzado el número máximo de entradas para el acceso directo. Elimine accesos directos antiguos o no utilizados.");
+			}
+		},
+		error: function(xhr, textStatus, errorThrown){
+			alert("Agotado el tiempo de espera.");
+		}
+	})
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function selectLang(val) {
+	location.href = "/main.html?sellang=" + val;
+}
+//--></script><script type="text/javascript" charset="UTF-8">
+<!--
+function search_start() {
+	obj = document.getElementsByName("search_charactor");
+	if (obj.length > 0){
+		if (obj.item(0).value != ""){
+			location.href = "site_search.html?searchchar=" + encodeURIComponent(obj.item(0).value);
+		}
+	}
+}
+//-->
+</script><script type="text/javascript" charset="UTF-8">
+<!--
+function search_start_p() {
+	obj = document.getElementsByName("search_charactor_p");
+		if (obj.length > 0){
+		if (obj.item(0).value != ""){
+			location.href = "site_search.html?searchchar=" + encodeURIComponent(obj.item(0).value);
+		}
+	}
+}
+//-->
+</script>
+
+	<script type="text/javascript">
+	<!--
+	function loginSubmit(mode) {
+		var locationURL;
+
+		if(mode == 0) {
+			locationURL = "login.html?" + location.pathname;
+			location.href = locationURL;
+		}
+		else {
+			location.href = "login.html?logoffSubmit";
+		}
+	}
+	//-->
+	</script>
+<!-- javascript //-->
+<script type="text/javascript" charset="UTF-8" src="webpage.js"></script>
+<script type="text/javascript">
+<!--
+sflg = 0;
+function validate( name ){
+	if (sflg == 0){
+		sflg = 1;
+		document.main.action.value = name;
+		ordinate = document.getElementsByName("ordinate");
+		if (ordinate.length > 0){
+			document.main.ordinate.value = getScrollPosition();
+		}
+		document.main.submit();
+	}
+}
+AddEventListener(window, 'load', passwdcheck);
+function passwdcheck(){
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+AddEventListener(window, 'load', display_scroll);
+function display_scroll(){
+	var elm = document.getElementById("currentmenu");
+	var elm2 = document.getElementById("menuList");
+	if(elm && elm2){
+		var cur = elm.getBoundingClientRect();
+		var top = elm2.getBoundingClientRect();
+		var height = getScreenHeigth();
+		if(height <= cur.bottom){
+			var mid = ((height - top.top) / 2 + top.top - (cur.bottom - cur.top) / 2);
+			if(mid <= cur.top){
+				$('#menuList').scrollTop(cur.top - mid);
+			}
+			else{
+				$('#menuList').scrollTop(cur.top - top.top);
+			}
+		}
+	}
+}
+//-->
+</script>
+
+</head>
+
+<body id="top">
+
+<div id="wrapper" class="drag" style="display: block;">
+	<div id="tabMenuArea" class="tabMenuArea" style="">
+		<div class="floatBox" id="header" style="height: 94px; margin-bottom: 2px;">
+			<div class="logo" id="headerLogo" style="display: block; margin-top: 18px; margin-right: 0px; width: 20%;"><a href="https://urldefense.com/v3/__http://sharp-world.com/__;!!BhdT!lVGZvA7M-Oa1Jb1qFPoL9jdzcF9Yn17DvtSRKkWHcXmIYPKYDmAgujlTFTjacWoR0AKhbS6oeB5n7g$" target="_blank" style="margin-bottom: 10px; margin-left: 13px; margin-right: 0px;"><img src="logo.png?20240529134606" width="102" height="15" alt="Conexión a la página principal de Sharp Global"></a><span style="font-size: 140%; display: block;">MX-M2651</span></div>
+			<div class="text" style="width: 78%; float: right; margin-left: 0px;">
+				<div class="top" id="hedaerLink" style="display: block;">
+					<a href="/manual.html" class="icon1">Descarga manual de oper.</a>
+					<a href="/site_map.html" class="icon2">Mapa del sitio</a>
+				</div>
+				<div class="middle floatBox" id="hedaerSelect">
+					<div class="search" style="display: block;">
+							<input type="text" id="headerSearchFormText" name="search_charactor" maxlength="256" title="Introducir Buscar palabra clave" onkeydown="if(event.keyCode == 13){javascript:search_start();}">
+							<input type="image" id="headerSearchFormBtn" src="headerSearchBtn.gif" onclick="search_start()" alt="">
+					</div>
+					<div class="lang">
+						<select name="select_lang" onchange="selectLang(this.value)" style="padding: 5px; background-color: rgb(236, 243, 255); border: 1px solid rgb(153, 153, 153);">
+				<option value="27">日本語</option>
+				<option value="1">American English</option>
+				<option value="2">English</option>
+				<option value="7" selected="selected">Español</option>
+				<option value="4">Français</option>
+				<option value="3">Deutsch</option>
+				<option value="6">Italiano</option>
+				<option value="8">Nederlands</option>
+				<option value="42">Català</option>
+				<option value="9">Svenska</option>
+				<option value="12">Norsk</option>
+				<option value="10">Suomi</option>
+				<option value="11">Dansk</option>
+				<option value="14">Magyar</option>
+				<option value="15">Čeština</option>
+				<option value="13">Polski</option>
+				<option value="20">Русский</option>
+				<option value="19">Ελληνικά</option>
+				<option value="16">Português</option>
+				<option value="18">Türkçe</option>
+				<option value="24">Slovensky</option>
+				<option value="39">Romana</option>
+				<option value="36">Latviešu</option>
+				<option value="21">简体中文</option>
+				<option value="22">繁體中文</option>
+				<option value="23">한국어</option>
+				<option value="25">عربية</option>
+						</select>
+					</div>
+				</div>
+				<div class="bottom" style="text-align: right; margin-bottom: 0px;">
+					<span style="display: inline; margin-top: 0px; margin-right: 10px; font-size: 100%; padding-top: 5px;"><a href="login.html" class="login pie" style="display: none;"></a></span><a href="login.html?/main.html" class="login pie" style="display: inline-block;">Inicio de Sesión</a>
+				</div>
+			</div>
+		</div>
+		<div class="tabMenu" id="tabMenu" style="height: 59px;">
+		<div class="invisible">Este es el principio del menú. Número del Menú:5</div>
+			<ul id="tabmenuListData" style="width: auto; max-width: 100%;">
+				<li class="on" style="width: 102px;"><a href="/main.html" class="pie" style="text-align: center; height: 59px;"><span style="padding: 6px 5px 7px; line-height: 1; font-size: 14px;">Estado</span></a></li>
+				<li style="width: 102px;"><a href="/addressbook.html" class="pie" style="text-align: center; height: 59px;"><span style="padding: 6px 5px 7px; line-height: 1; font-size: 14px;">Libreta de<br>direcciones</span></a></li>
+				<li style="width: 102px;"><a href="/filelist_main.html?folder=01" class="pie" style="text-align: center; height: 59px;"><span style="padding: 6px 5px 7px; line-height: 1; font-size: 14px;">Operaciones<br>con documentos</span></a></li>
+				<li style="width: 102px;"><a href="/user_control.html" class="pie" style="text-align: center; height: 59px;"><span style="padding: 6px 5px 7px; line-height: 1; font-size: 14px;">Control de<br>Usuario</span></a></li>
+				<li style="width: 102px;"><a href="/system.html" class="pie" style="text-align: center; height: 59px;"><span style="padding: 6px 5px 7px; line-height: 1; font-size: 14px;">Configuraciones<br>del sistema</span></a></li>
+			</ul>
+		<div class="invisible">Éste es el final del menú.</div>
+		</div>
+	</div>
+
+	<div id="contents">
+		<div id="fixedTopicBtn">
+			<img src="topicPathOpen.png" alt="" width="56" height="56">
+		</div>
+		<div id="fixedTopicArea">
+			<div>
+<span>Estado</span>&gt; <span>Identificación de la máquina</span>			</div>
+		</div>
+
+		<div id="contentsTable">
+			<div id="sideBar" style="width: 250px; min-width: 250px; max-width: 250px; margin-top: 0px; border-top: 3px solid rgb(255, 255, 255); display: table-cell;">
+				<div id="searchForm" class="searchForm" style="display: none;">
+					<div id="searchFormArea">
+						<span id="spMenuBtn1" style="display: none;"><img src="spMenuBtnOpen.png" alt="" width="35" height="31"></span>
+						<span class="searchBox">
+							<input type="text" id="searchFormText" name="search_charactor_p" value="" maxlength="256">
+							<input type="image" id="searchFormBtn" src="searchBtn.gif" width="31" height="31" onclick="search_start_p()">
+						</span>
+					</div>
+				</div>
+				<div id="menuList" class="" style="display: block; overflow-y: auto; height: 436px;">
+					<div class="invisible">Este es el principio del menú. Número del Menú:6</div>
+					<ul class="menu">
+						<li class="layer" id="currentmenu"><a href="/main.html" class="on">Identificación de la máquina</a></li>
+						<li class="layer"><a href="/total_count.html">Contador Total</a></li>
+						<li class="layer"><a href="/device_status.html">Estado del Dispositivo</a></li>
+						<li class="layer"><a href="/network_status.html">Estado de la red</a></li>
+						<li class="layer"><a href="/listprint_data.html">Lista de datos</a></li>
+						<li class="layer2"><a href="/listprint_data.html">Lista por usuario</a></li>
+					</ul>
+					<div class="invisible">Éste es el final del menú.</div>
+				<ul class="sitemap" style="display: none;">
+					<li><a href="/site_map.html">Mapa del sitio</a></li>
+				</ul>
+				</div>
+			</div>
+			<div id="sideBarBtn" style="display: block; height: 436px;">
+				<div><img src="sidebarBtnOpenOpepane.png"></div>
+			</div>
+
+			<div id="mainContents" style="display: table-cell; border-top: 3px solid rgb(255, 255, 255); width: auto; padding-left: 8px;">
+				<div class="topicPath floatBox" id="topicPath">
+					<div class="path">
+<span>Estado</span>&gt; <span>Identificación de la máquina</span>					</div>
+				</div>
+
+				<div id="mainContentsScroll" class="" style="width: 512px; overflow: auto; height: 434px;">
+					<div id="title" style="background: none;">
+						<div id="spMenuBtn2" style="display: none;"><img src="spMenuBtnClose.png" alt="" width="35" height="31"></div>
+						<h1 style="margin-left: 0px; min-width: 1%;">Identificación de la máquina</h1>
+					</div>
+
+					<div class="subMenu floatBox" style="min-width: 1%;">
+						<div class="left floatBox">
+							<input name="updatebtn" type="button" value="Actualizar(R)" onclick="validate( this.name )" accesskey="R" class="designBtn1 pie">
+						</div>
+						
+					</div>
+					<div id="main" class="floatBox">
+
+						<p class="ok"></p>
+						<form name="main" action="#" method="post">
+						<input type="hidden" name="mainwebchange" value="">
+						<table class="mimicTable" style="margin: 0px auto 15px; min-width: 100%; max-width: 100%;">
+							<tbody>
+								<tr>
+									<td colspan="2" class="machine" style="text-align: center;"><img src="body.png" alt="Imagen máquina"
+											class="auto" style="width: 100%; max-width: 144px; max-height: 100px;"></td>
+								</tr>
+								<tr>
+									<td style="width:50%">Número de serie de la unidad:</td>
+									<td>1502775600</td>
+								</tr>
+								<tr>
+									<td>Nombre:</td>
+									<td>No fijado</td>
+								</tr>
+								<tr>
+									<td>Nombre del modelo:</td>
+									<td>MX-M2651</td>
+								</tr>
+								<tr>
+									<td>Ubicación de máquina:</td>
+									<td>No fijado</td>
+								</tr>
+								<tr>
+									<td>Estado actual:</td>
+									<td class="noserch">En línea</td>
+								</tr>
+								<tr>
+									<td>Memo:</td>
+									<td>No fijado</td>
+								</tr>
+							</tbody>
+						</table>
+
+
+		<hr style="min-width: 1%;">
+		<h2>Estado de alimentación</h2>
+		<table class="matrix" style="min-width: 100%; max-width: 100%;">
+			<thead>
+			<tr>
+				<th style="width:25%">Facilitar Información</th>
+				<th colspan="2">Estado</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Tóner Negro</td>
+				<td style="width:25%">Más de 25%</td>
+				<td>
+					<div class="colorBar"><div class="hddblack" style="width:50%;">&nbsp;</div></div>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+		<hr style="min-width: 1%;">
+		<h2>Estado de la bandeja de entrada de papel		</h2>
+		<table class="matrix" style="min-width: 100%; max-width: 100%;">
+					<thead>
+		<tr>
+			<th>Bandeja</th>
+			<th>Estado</th>
+			<th>Tamaño del papel</th>
+			<th>Tipo de papel</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>Bandeja 1</td>
+			<td>33%</td>
+			<td>Carta(8 1/2x11)</td>
+			<td>Papel Normal 1</td>
+		</tr>
+		<tr>
+			<td>Bandeja 2</td>
+			<td>0%</td>
+			<td>8 1/2x13 2/5(216x340)</td>
+			<td>Papel Normal 2</td>
+		</tr>
+		<tr>
+			<td>Entrada Manual</td>
+			<td>Vacío</td>
+			<td>Desconocido</td>
+			<td>Reciclado</td>
+		</tr>
+		</tbody>
+		</table>
+		<hr style="min-width: 1%;">
+		<table class="layout" style="min-width: 100%; max-width: 100%;">
+			<tbody><tr>
+				<td rowspan="2" class="layoutHead">
+					Aj. patrón pantalla:
+				</td>
+				<td>
+					<select name="ggt_select(2)" size="1" style="padding: 5px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204);">
+				<option value="0" selected="selected">Patrón 1</option>
+				<option value="1">Patrón 2</option>
+				<option value="2">Patrón 3</option>
+				<option value="3">Patrón 4</option>
+			</select>
+				</td>
+				</tr>
+			<tr>
+				<td>
+					<input name="main_patternexebtn" type="button" value="Ejecute(C)" onclick="validate( this.name )" accesskey="C" class="designBtn1 pie">
+				</td>
+		</tr></tbody></table>		<br>
+
+						<input type="hidden" name="action" value="">
+<input type="hidden" name="token1" value="00D53CD864B65228F33A1B4E5ACE4DB47C0B13A17C06D305CD202405291946066A3ED552">
+<input type="hidden" name="token2" value="904407775E899548C2E9FD7C8314F4F0A6B8C21356429157FB939F57AE18E1D0E58A889605671017">
+						<input type="hidden" name="ordinate" value="">
+						</form>
+					</div>
+					<div class="subMenu floatBox" style="min-width: 1%;">
+						<div class="left floatBox">
+							<input name="updatebtn" type="button" value="Actualizar(R)" onclick="validate( this.name )" accesskey="R" class="designBtn1 pie">
+						</div>
+					</div>
+				</div>
+				<div class="pageTop" id="pageTop" style="display: block; right: 30px; bottom: 5px;"><input type="button" value="Sup. pág." class="designBtn1 pie" style="padding: 4px 15px 4px 29px; background-position: 12px 9px;"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body></html>
