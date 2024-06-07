@@ -3,7 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from pathlib import Path
-
+from getch import pause_exit
 
 def get_printer_ip(urls_path):
 
@@ -32,9 +32,10 @@ modelos =[]
 ubicaciones =[]
 
 ctrl_ix = 0
-
+cont = 0
 for p in printers:
-
+    cont = cont +1
+    print("#"+str(cont)+" -- Procesando impresora: "+ p.strip()+"....\n")
     try:
         url = p.strip()
         page = urlopen(url)
@@ -108,4 +109,6 @@ df = pd.DataFrame(dict_csv)
 #df.to_csv(r"C:\Users\mr344c\Documents\Python Scripts\LA_XARP\printer_info.csv",sep="|",index=False)
 print(r"Guardando archivo como .... C:\printer_info.csv")
 
-df.to_csv(r"C:\printer_info.csv",sep="|",index=False)
+df.to_csv(r"C:\printer_info.csv",sep="|",index=False,mode="a")
+
+pause_exit(0,"Presiona cualquier tecla para cerrar.")
